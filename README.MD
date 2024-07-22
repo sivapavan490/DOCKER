@@ -13,21 +13,21 @@
 
 # now install docker engine
 
-sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # to start docker
 
-sudo systemctl start docker
+    sudo systemctl start docker
 
 # enabling docker
 
-systemctl enable docker
+    systemctl enable docker
 
 # status docker
 
-systemctl status docker
+    systemctl status docker
 
 # docker users can only use docker, when you install docker  a group called "docker" is automatically created
 
-usermod -aG docker centos
+    usermod -aG docker centos
 
