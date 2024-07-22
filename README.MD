@@ -1,8 +1,8 @@
  # Docker installation steps
  # 1st take the root user access. TO take root user acess run below cmd
- '''
+ 
     sudo su -
- '''
+ 
  # now run the below cmds to install docker
  '''
  yum install -y yum-utils
