@@ -19,4 +19,30 @@ docker start container id
 docker stop container id 
 
 # to remove the containers we use below cmd
+
 docker rm container id 
+
+# to remove images
+docker rmi imageid
+
+# to remove all images in single cmd
+docker rmi `docker images -a -q`
+
+# to run containers in background we use below cmd
+
+docker run -d imagename
+# to run containers with port no we use below cmd
+docker run -d -p hostport:containerport imagename
+
+hostport: It will expose to the outside of environment. Through hostport only we can acess the container
+
+# when we create docker container. Docker will give a randomname. if we want specific name to the container we use below cmd
+
+docker run -d -p hostport:containerport --name specificname imagename
+
+# to login to the container we use below cmd
+
+docker exec -it containerid or name  bash
+
+# if we want to inspect container we use below cmd
+docker inspect containerid

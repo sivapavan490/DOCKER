@@ -7,8 +7,7 @@
  
  yum install -y yum-utils
  
-
- # now ou can add the repo of docker
+ # now ou can add the repos of docker
 
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 
@@ -29,7 +28,6 @@ systemctl enable docker
 systemctl status docker
 
 # docker users can only use docker, when you install docker  a group called "docker" is automatically created
-
 
 usermod -aG docker centos
 
