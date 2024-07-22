@@ -28,3 +28,8 @@ systemctl enable docker
 '''
 systemctl status docker
 '''
+# docker users can only use docker, when you install docker  a group called "docker" is automatically created
+
+"""
+usermod -aG docker centos
+"""
