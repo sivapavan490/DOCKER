@@ -5,11 +5,11 @@
  
  # now run the below cmds to install docker
  
- yum install -y yum-utils
+    yum install -y yum-utils
  
  # now ou can add the repos of docker
 
-sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 
 # now install docker engine
 
