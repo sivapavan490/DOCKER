@@ -59,3 +59,17 @@
 # if we want to inspect container we use below cmd
 
     docker inspect containerid
+
+# how to build images from dockerfile locally
+
+    docker build -t imagename:version .
+
+# how to build images & push to dockerhub 
+
+    docker build -t  username/imagename:version .
+
+# how to build images & push to ECR NEXUS docker registry
+
+    docker build -t ECR URL or NEXUS DOCKER REGISTRY URL/USERNAME/IMAGENAME:VERSION .
+
+# 
