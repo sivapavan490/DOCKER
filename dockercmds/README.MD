@@ -50,7 +50,7 @@
 
 # when we create docker container. Docker will give a randomname. if we want specific name to the container we use below cmd
 
-    docker run -d -p hostport:containerport --name specificname imagename
+    docker run -d -p hostport:containerport --name specificname imagename:version
 
 # to login to the container we use below cmd
 
