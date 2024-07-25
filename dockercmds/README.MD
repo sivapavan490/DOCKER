@@ -72,4 +72,16 @@
 
     docker build -t ECR URL or NEXUS DOCKER REGISTRY URL/USERNAME/IMAGENAME:VERSION .
 
-# 
+#  To create our own n/w in docker we use brlow cmd
+    docker network create n/w name
+
+To communicate containers with each other they should be connected with same n/w 
+#   
+
+
+
+
+
+
+ex:-
+docker run -d --name ourownname --network=networkname 
