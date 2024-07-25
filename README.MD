@@ -31,3 +31,11 @@
 
     usermod -aG docker centos
 
+
+# docker compose installation
+
+    sudo curl -L https://github.com/docker/compose/releases/download/2.29.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
+# execution acess
+    sudo chmod +x /usr/local/bin/docker-compose
+
